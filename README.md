@@ -10,7 +10,9 @@ Moving Average Visualizations: Automatically calculates and plots 50-day, 100-da
 
 Deep Learning Predictions: Utilizes a pre-trained Keras LSTM model to predict price movements based on the last 100 days of data.
 
-Interactive Dashboard: A user-friendly interface built with Streamlit allowing users to enter any stock ticker.
+Interactive Dashboard: A user-friendly interface built with Streamlit, allowing users to enter any stock ticker.
+
+
 
 🛠️ Tech Stack
 Frontend: Streamlit
@@ -23,32 +25,8 @@ Machine Learning: TensorFlow/Keras (LSTM Model)
 
 Data Source: Yahoo Finance API (yfinance)
 
-📋 Prerequisites
-Ensure you have the following Python libraries installed:
 
-Bash
-pip install numpy pandas yfinance streamlit scikit-learn tensorflow matplotlib
-📂 Project Structure
-app.py: The main Streamlit web application.
 
-app.ipynb: Jupyter Notebook containing data exploration, model training logic, and visualization tests.
-
-Stock Predictions Model.keras: The pre-trained neural network model (expected path defined in app.py).
-
-⚙️ How to Run
-Clone the repository:
-
-Bash
-git clone https://github.com/your-username/stock-market-predictor.git
-cd stock-market-predictor
-Configure the Model Path: Open app.py and update the model_path variable to point to your local .keras file:
-
-Python
-model = tf.keras.models.load_model('path/to/your/Stock Predictions Model.keras')
-Launch the App:
-
-Bash
-streamlit run app.py
 📊 Methodology
 Data Slicing: The data is split into training (80%) and testing (20%) sets.
 
