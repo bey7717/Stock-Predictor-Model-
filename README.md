@@ -1,5 +1,3 @@
-To help you set up and share your project, here is a professional README.md file based on the code provided in your Streamlit application (app.py) and Jupyter Notebook (app.ipynb).
-
 Stock Market Predictor 📈
 A machine learning-powered web application that predicts stock prices using LSTM (Long Short-Term Memory) networks. Built with Python, TensorFlow, and Streamlit, this tool fetches real-time historical data from Yahoo Finance to visualize trends and predict future price movements.
 
